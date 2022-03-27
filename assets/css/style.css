@@ -379,7 +379,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -409,6 +409,59 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+/*--------------------------------------------------------------
+# Languages
+--------------------------------------------------------------*/
+.languages .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.languages .progress .language {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+.languages .progress .language .val {
+  float: right;
+  font-style: normal;
+}
+.languages .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.languages .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+.fluent {
+  font-size: smaller;
+  text-transform: capitalize;
+}
+
+/*--------------------------------
+    Hobbies
+--------------------------------*/
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hobbies-icon {
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*--------------------------------------------------------------
