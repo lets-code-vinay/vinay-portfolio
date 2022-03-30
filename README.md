@@ -1,3 +1,3 @@
 # vinay-portfolio
 
-## imvinay.netlify.app
+## https://imvinay.netlify.app
