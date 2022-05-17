@@ -32,6 +32,16 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.bxs-star {
+  color: yellow;
+  text-shadow: 1px 1px 1px rgb(53, 43, 43);
+}
+
+.interests,
+.hobbies {
+  color: #173b6c !important;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -229,6 +239,7 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-top: -20%;
 }
 #hero h1 {
   margin: 0 0 10px 0;
